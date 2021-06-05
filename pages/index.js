@@ -14,7 +14,7 @@ class Index extends React.Component {
       isFlipping: false
     }
 
-    this.roles = ['Developer', 'Tech Lover', 'Team Player', 'Course Creator', 'React.js', 'Angular'];
+    this.roles = ['Developer', 'Full-stack', 'Tech Lover','JavaScript', 'Team Player',  'React.js', 'Vue.js', 'React Native'];
   }
 
   componentDidMount() {
@@ -42,7 +42,7 @@ class Index extends React.Component {
     return (
       <BaseLayout className={`cover ${isFlipping ? 'cover-1' : 'cover-0'}`} {...this.props.auth}
                   headerType="index"
-                  title="Filip Jerga - Portfolio">
+                  title="Tamzeed Hossain - Portfolio">
         <div className="main-section">
           <div className="background-image">
             <img src="/static/images/background-index.png" />
@@ -83,8 +83,8 @@ class Index extends React.Component {
                 <div className="hero-welcome-text">
                   <h1>
                     { isAuthenticated && <span> <b> {user.name} </b> </span> }
-                    Welcome to the portfolio website of Filip Jerga.
-                    Get informed, collaborate and discover projects I was working on through the years!
+                    Welcome to the portfolio website of Tamzeed Hossain.
+                    Get informed, technical blogs and discover projects I was working on through the years!
                   </h1>
                 </div>
                 <Typed
@@ -108,8 +108,8 @@ class Index extends React.Component {
               </Col>
             </Row>
           </Container>
-          <span className="service-link">Vector illustration credit:{' '}
-            <a href="https://www.Vecteezy.com/">vecteezy.com</a>
+          <span className="service-link">copyright 2021 ©:{' '}
+            <a href="https://www.linkedin.com/in/tamzeed-hossain-475852171/">Tamzeed Hossain</a>
           </span>
         </div>
       </BaseLayout>
