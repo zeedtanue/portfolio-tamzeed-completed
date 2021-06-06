@@ -14,7 +14,7 @@
   "license": "ISC",
   "description": "",
   "engines": {
-    "node": "14.15"
+    "node": "14.16.1"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
