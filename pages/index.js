@@ -71,7 +71,7 @@ class Index extends React.Component {
                           Profesional and top quality service in web development.
                         </div>
                       </div>
-                      <img alt="Guy programming welcome picture" className="image" src="/static/images/tamzeed02.jpg"/>
+                      <img alt="Guy programming welcome picture" className="image" src="/static/images/tamzeed01.jpg"/>
                       <div className="shadow-custom shadow-custom-2">
                         <div className="shadow-inner"> </div>
                       </div>
